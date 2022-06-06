@@ -1,0 +1,13 @@
+{
+	"namespace":"Saudia.Feature.Navigation",
+	"references":"",
+	"items":{
+		"includes":[
+			{
+				"name": "templates",
+				"path": "/sitecore/templates/Feature/serialization test",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"namespace":"Saudia.Project.WebPortal",
+	"references":"",
+	"items":{
+		"includes":[
+			{
+				"name": "templates",
+				"path": "/sitecore/templates/Project",
+				"allowedPushOperations": "createUpdateAndDelete"
+			}
+		]
+	}
+}

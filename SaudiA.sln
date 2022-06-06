@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1972
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{7581F015-E81E-4B97-AA6D-38C335458A65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E755C59D-82CA-4AB8-9BFA-03641F7F62F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{1532761F-45F8-4F42-B265-C88A63CF1A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPortal", "WebPortal", "{A8C98179-BF75-45E5-920B-CAD056F6EB58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.WebPortal", "src\Project\WebPortal\code\SaudiA.WebPortal.csproj", "{3D9F911E-561E-4662-B27F-48C38F0404DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{2478C1DA-58A0-4879-B85F-529D7AD02DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.WebPortal.Feature.Navigation", "src\Feature\Navigation\code\SaudiA.WebPortal.Feature.Navigation.csproj", "{987874C0-C52A-4E7E-953A-EADCC77DCC24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SessionManager", "SessionManager", "{B1476D71-B282-4E01-AB72-8FC04493E495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceClient", "ServiceClient", "{FB2F8D11-6C4B-4113-A77E-FD2858D08DD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{4AE18AD9-6446-468C-B878-DC65BDC5CCF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ErrorHandling", "ErrorHandling", "{9D8200D8-FDEB-4D1C-8E25-296583F43A3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{0A90ACD4-DB95-435C-9B35-F65B836C84F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.WebPortal.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\SaudiA.WebPortal.Foundation.DependencyInjection.csproj", "{90F292F1-FFDB-47CD-9F3E-5147076BA488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.WebPortal.Foundation.ErrorHandling", "src\Foundation\ErrorHandling\code\SaudiA.WebPortal.Foundation.ErrorHandling.csproj", "{2F6AE5AF-4B4B-41A9-B0A4-DD8513825CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.WebPortal.Foundation.Logging", "src\Foundation\Logging\code\SaudiA.WebPortal.Foundation.Logging.csproj", "{539C0712-BCE6-446C-9107-8A7E8F1085A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.WebPortal.Foundation.ServiceClient", "src\Foundation\ServiceClient\code\SaudiA.WebPortal.Foundation.ServiceClient.csproj", "{70ED12AE-51F1-4DD1-B27A-89F97211120C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session", "Session", "{FC93730B-7019-4CA7-9ECE-0AFB47499EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudiA.Foundation.Session", "src\Feature\Session\code\SaudiA.Foundation.Session.csproj", "{A1D41398-7C75-4B9B-94CC-181296A258BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9F911E-561E-4662-B27F-48C38F0404DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9F911E-561E-4662-B27F-48C38F0404DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9F911E-561E-4662-B27F-48C38F0404DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9F911E-561E-4662-B27F-48C38F0404DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987874C0-C52A-4E7E-953A-EADCC77DCC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987874C0-C52A-4E7E-953A-EADCC77DCC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987874C0-C52A-4E7E-953A-EADCC77DCC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987874C0-C52A-4E7E-953A-EADCC77DCC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F292F1-FFDB-47CD-9F3E-5147076BA488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F292F1-FFDB-47CD-9F3E-5147076BA488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F292F1-FFDB-47CD-9F3E-5147076BA488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F292F1-FFDB-47CD-9F3E-5147076BA488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6AE5AF-4B4B-41A9-B0A4-DD8513825CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6AE5AF-4B4B-41A9-B0A4-DD8513825CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6AE5AF-4B4B-41A9-B0A4-DD8513825CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6AE5AF-4B4B-41A9-B0A4-DD8513825CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539C0712-BCE6-446C-9107-8A7E8F1085A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539C0712-BCE6-446C-9107-8A7E8F1085A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539C0712-BCE6-446C-9107-8A7E8F1085A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539C0712-BCE6-446C-9107-8A7E8F1085A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ED12AE-51F1-4DD1-B27A-89F97211120C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ED12AE-51F1-4DD1-B27A-89F97211120C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ED12AE-51F1-4DD1-B27A-89F97211120C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ED12AE-51F1-4DD1-B27A-89F97211120C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D41398-7C75-4B9B-94CC-181296A258BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D41398-7C75-4B9B-94CC-181296A258BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D41398-7C75-4B9B-94CC-181296A258BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D41398-7C75-4B9B-94CC-181296A258BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8C98179-BF75-45E5-920B-CAD056F6EB58} = {1532761F-45F8-4F42-B265-C88A63CF1A52}
+		{3D9F911E-561E-4662-B27F-48C38F0404DE} = {A8C98179-BF75-45E5-920B-CAD056F6EB58}
+		{2478C1DA-58A0-4879-B85F-529D7AD02DAE} = {7581F015-E81E-4B97-AA6D-38C335458A65}
+		{987874C0-C52A-4E7E-953A-EADCC77DCC24} = {2478C1DA-58A0-4879-B85F-529D7AD02DAE}
+		{B1476D71-B282-4E01-AB72-8FC04493E495} = {E755C59D-82CA-4AB8-9BFA-03641F7F62F5}
+		{FB2F8D11-6C4B-4113-A77E-FD2858D08DD5} = {E755C59D-82CA-4AB8-9BFA-03641F7F62F5}
+		{4AE18AD9-6446-468C-B878-DC65BDC5CCF7} = {E755C59D-82CA-4AB8-9BFA-03641F7F62F5}
+		{9D8200D8-FDEB-4D1C-8E25-296583F43A3A} = {E755C59D-82CA-4AB8-9BFA-03641F7F62F5}
+		{0A90ACD4-DB95-435C-9B35-F65B836C84F5} = {E755C59D-82CA-4AB8-9BFA-03641F7F62F5}
+		{90F292F1-FFDB-47CD-9F3E-5147076BA488} = {0A90ACD4-DB95-435C-9B35-F65B836C84F5}
+		{2F6AE5AF-4B4B-41A9-B0A4-DD8513825CFF} = {9D8200D8-FDEB-4D1C-8E25-296583F43A3A}
+		{539C0712-BCE6-446C-9107-8A7E8F1085A1} = {4AE18AD9-6446-468C-B878-DC65BDC5CCF7}
+		{70ED12AE-51F1-4DD1-B27A-89F97211120C} = {FB2F8D11-6C4B-4113-A77E-FD2858D08DD5}
+		{FC93730B-7019-4CA7-9ECE-0AFB47499EF4} = {7581F015-E81E-4B97-AA6D-38C335458A65}
+		{A1D41398-7C75-4B9B-94CC-181296A258BD} = {FC93730B-7019-4CA7-9ECE-0AFB47499EF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {81A4C99B-ED1E-4B50-9F33-4F6ED66E9034}
+	EndGlobalSection
+EndGlobal
